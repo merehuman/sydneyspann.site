@@ -13,11 +13,20 @@
 
 html {
 	  background-color: #fcffa8;
-}
+	 }
 
 body { 
 	font-family: 'Work Sans', sans-serif;
 	color: black;
+	cursor: none;
+	}
+
+.cursor {
+	background-image: url('flower.png');
+	width: 20px;
+	height: 20px;
+	/*border: 2px solid black;*/
+	position: absolute;
 }
 
 ul {
