@@ -12,232 +12,77 @@
 }
 
 html {
-	  background-color: #fcffa8;
+	/*background-color: #fcffa8;*/
+	background-color: white;
+	background-image: url("images/drawingedit.jpg");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: 50% 70%;
+  	background-size: 150%;
 	 }
 
 body { 
 	font-family: 'Work Sans', sans-serif;
 	color: black;
-	cursor: none;
 	}
-
-.cursor {
-	background-image: url('flower.png');
-	width: 20px;
-	height: 20px;
-	/*border: 2px solid black;*/
-	position: absolute;
-}
-
-ul {
-
-}
 
 li {
 	list-style: none;
-	font-size: 350%;
+	font-size: 175%;
 	position: relative;
+	padding: 10px;
+	margin: 20px;
+	/*border: 2px solid black;*/
+	display: inline-block;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+	font-size: 120%;
+}
+
+table {
 	padding: 5px;
 	margin: 20px;
-	border: 2px solid black;
-	display: inline-block;
 }
 
-img {
-	border: 2px solid black;
-	width: 500px;
-	margin-left: 35%;
+td {
+  	/*border: 1px solid black;*/
+  	padding: 5px;
+  	background-color: white;
 }
 
-@media (max-width: 800px) {
-
-}
-@media {
-/* Fairly small screens including iphones */
-only screen and (max-width: 500px),
-
-/* iPads */
-only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.ui-dialog {
-	background-color: black;
-	width: 900px !important;
-	max-height: 600px !important;
-  	overflow-y: scroll;
-    z-index: 1;
-     border:2px dotted white;
-    -moz-border-radius:8px;
-    -webkit-border-radius:8px;
-    border-radius:8px;	
-    margin: 10px;
-    padding: 10px;
-}
-
-.ui-dialog-title {
-	font-size: 200%;
-}
-
-.ui-dialog-titlebar-close {
-	float: right;
-	position: relative;
-}
-
-.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close {
-       background: url("images/close.png") no-repeat center;
-       border: none;
-       background-color: black;
-       color: black;
-       font-size: 100%;
-
-    }
-
-.ui-dialog-titlebar {
-	background-color: black;
+th {
+	background: black;
+	color: white!important;
 	padding: 5px;
-	border-bottom: 2px dotted white;
+	border: 1px solid black;
 }
-
-
-#opener {
-	font-size: 100%;
-	font-family: 'Roboto Mono', monospace;
-	text-decoration: none;
-	background-color: black;
-	border: none;
-}
-
-.left {
-	display: inline-block;
-	position: relative;
-	float: left;
-	padding: 10px;
-	margin-left: 10px;
-	overflow: hidden;
-
-}
-
-.right {
-	display: inline-block;
-	position: fixed;
-	right: 0;
-	margin-right: 10px;
-	padding: 10px;
-	overflow: hidden;
-	
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: black
-  color: white;
-  text-align: center;
-  display: inline-block;
-}
-
-
 .link {
-	color:white; 
-	text-decoration: none;
+	color: white!important;
 }
 
-.link:hover {
-	color: yellow;
-    text-decoration: none;
-}
-
-
-.textbox {
-	/*border: 2px solid white;*/
-	margin: 10px;
-	padding: 5px;
-	overflow: hidden;
-    /*transition-duration: 0.8s;
-    transition-property: transform;*/
-    /*float: left;
-    display: block;*/
-    /*width: 25%;*/
-    -moz-border-radius:8px;
-    -webkit-border-radius:8px;	
-    border-radius:8px;	
-    color: white;
-    background-color: black;
-
-}
-
-.textbox:hover {
-    /*transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);*/
-}
-
-
-.button {
-	border: 2px dotted white;
-	padding: 5px;
-	text-align: center;
-	margin: 10px;
+.title {
+	background-color: black;
 	color: white;
-    text-decoration: none;
-    /*box-shadow: 5px 5px;*/
-    float: left;
-    -moz-border-radius:8px;
-    -webkit-border-radius:8px;	
-    border-radius:8px;	
-}
-
-.button:hover {
-	border: 2px dotted white;
-	padding: 5px;
-	text-align: center;
-	margin: 20px;
-	color: yellow;
-    text-decoration: none;
-    float: left;
-}
-
-
-#p, #p1, #p2, #p3, #p4 {
-	overflow: hidden;
-	font-size: 300%;
-	padding: 5px;
-	/*margin: 1%;*/
-	position: relative;
-	/*background-color: black;*/
-	border: 2px dotted white;
-	
-}
-
-
-.scrolling {
-	overflow-x: scroll;
-  	overflow-y: hidden;
- 	white-space: nowrap;
-  	width: 99%;
-}
-
-.img {
 	display: inline-block;
 }
+.info {
+	position: relative;
+	padding: 15px;
+	/*border: 2px solid black;*/
+	margin: 20px;
+	background-color: white;
+}
+.home {
+	color: white;
+}
+

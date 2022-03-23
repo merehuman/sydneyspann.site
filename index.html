@@ -8,28 +8,20 @@
 	<meta name="viewport" content="width=device-width" initial-scale="1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
-	
 </head>
 
 <body>
-	<div class="cursor"></div>
-	<script type="text/javascript">
-		const cursor = document.querySelector('.cursor');
-
-		document.addEventListener('mousemove', e => {
-			cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left:"+(e.pageX - 10)+"px")
-		})
-	</script>
 	<ul>
-		<li>sydney spann . com</li>
-		<li>bio</li>
-		<li>cv</li>
-		<li>recordings</li>
-		<li>performances</li>
-		<li>wip</li>
+		<li class='title'>sydney spann . com</li>
+		<li><a href='/info.html'>info</a></li>
+		<li><a href='/releases.html'>releases</a></li>
+		<li><a href='/commissions.html'>commissions</a></li>
+		<li><a href='/performances.html'>performances</a></li>
+		<li><a href='/contact.html'>contact</a></li>
+		<!-- <img src="images/home.jpg" alt="sydney on a piano looking hot"> -->
 	</ul>
 	<br><br>
-	<img src="images/home.jpg" alt="sydney on a piano looking hot">
+	
 
 </body>
 </html>
