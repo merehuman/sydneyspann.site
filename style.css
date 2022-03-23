@@ -17,7 +17,7 @@ html {
 	background-image: url("images/drawingedit.jpg");
   	background-repeat: no-repeat;
   	background-attachment: fixed;
-  	background-position: 50% 70%;
+  	background-position: 50% 60%;
   	background-size: 150%;
 	 }
 
@@ -31,7 +31,7 @@ li {
 	font-size: 175%;
 	position: relative;
 	padding: 10px;
-	margin: 20px;
+	margin: 30px;
 	/*border: 2px solid black;*/
 	display: inline-block;
 	background-color: white;
