@@ -75,7 +75,7 @@ th {
 
 .title {
 	background-color: black;
-	color: white;
+	color: white!important;
 	display: inline-block;
 }
 .info {
