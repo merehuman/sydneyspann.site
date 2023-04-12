@@ -31,7 +31,7 @@ li {
 	font-size: 150%;
 	position: relative;
 	padding: 10px;
-	margin: 30px;
+	margin-top: 30px;
 	border: 2px solid black;
 	display: inline-block;
 	background-color: white;
@@ -48,7 +48,7 @@ table {
 	border-collapse: collapse;
 	font-size: 120%;
 	padding: 10px;
-	margin: 30px;
+	margin: 40px;
 }
 
 td {
@@ -58,13 +58,14 @@ td {
 }
 
 th {
-	background: black;
-	color: white!important;
+	background: white;
+	color: black;
 	padding: 10px;
 	border: 2px solid black;
 }
 .link {
-	color: white!important;
+	color: black;
+	text-decoration: none;
 }
 
 .title {
@@ -74,9 +75,10 @@ th {
 }
 .info {
 	position: relative;
+	font-size: 120%;
 	padding: 10px;
 	border: 2px solid black;
-	margin: 20px;
+	margin: 40px;
 	background-color: white;
 }
 .home {
