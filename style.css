@@ -63,6 +63,11 @@ th {
 	padding: 10px;
 	border: 2px solid black;
 }
+
+.homeimg {
+	margin-left: 40px;
+	width: 500px;
+}
 .link {
 	color: black;
 	text-decoration: none;
